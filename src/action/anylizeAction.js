@@ -121,5 +121,9 @@ export async function anylizeAction(prevState, formData) {
     
     const html = String(data?.choices?.[0]?.message?.content ?? "")
     return { ok: true, html, rid}
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> d3a1f52a5dd9437f3f833adde3559d2779069c3d
