@@ -166,7 +166,7 @@ function Camera() {
 
     const htmlToRender = cleanUpHTML(typedHtml || (isTyping ? "" : responseHtml) || "")
 
-    return (
+  return (
     <div>
         <div className='relative w-full rounded-2xl overflow-hidden bg-black'>
             <Webcam 
@@ -255,7 +255,7 @@ function Camera() {
             </div>
         </section>
     </div>
-    )
+  )
 }
 
 export default Camera
