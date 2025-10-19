@@ -91,7 +91,7 @@ function Camera() {
         context.drawImage(video, sx, sy, sw, sh, 0, 0, targetW, targetH);
 
         const result = canvas.toDataURL("image/jpeg", 0.9)
-        console.log(result)
+        // console.log(result)
         setPhotoDataUrl(result)
     }
 

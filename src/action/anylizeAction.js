@@ -12,7 +12,7 @@ export async function anylizeAction(prevState, formData) {
         }
     }
 
-    const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+    const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || "";
     if(!OPENROUTER_API_KEY) {
         return {
             ok: false,
